@@ -1,0 +1,30 @@
+MODULE-3: DOCKER ASSIGNMENT-1
+
+Tasks To Be Performed:
+1.Pull Ubuntu container 
+2.Run this container and map port 80 on the local 
+3.Install Apache2 on this container 
+4.Check if you are able to access the Apache page on your browser
+
+STEP1: Pull ubuntu container.
+
+
+
+
+STEP2: 
+
+
+docker run -dit --name apachecontainer -p 9090:80 ubuntu:latest
+
+STEP3: 
+Install Apache2
+Docker exec -it containerid /bin/bash
+
+
+STEP4:
+
+
+STEP5:
+
+
+TASK COMPLETED!
